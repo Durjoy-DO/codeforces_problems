@@ -1,0 +1,11 @@
+#whatemelon problem -71A
+a =int (input())
+for p in range(0,a):
+    p= str (input())
+    q=len(p)
+    if(q>10):
+        b=(len(p)-2)
+        print(p[0]+str(b)+p[q-1])
+    else:
+        print(p)
+    
