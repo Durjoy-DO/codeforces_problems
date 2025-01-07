@@ -1,4 +1,4 @@
-#whatemelon problem -71A
+#problem -71A
 a =int (input())
 for p in range(0,a):
     p= str (input())
