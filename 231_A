@@ -1,0 +1,9 @@
+#codeforces-231A
+a=int (input())
+c=0
+for p in range(a):
+   m,n,o=map(int, input().split())
+   if((m+n+o)>1):
+      c=c+1
+print(c)
+      
